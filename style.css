@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Immagine di sfondo */
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Distanza tra pagina e contenitore nero */
+#page {
+  padding-top: 20px;
+}
+
+/* contenitore nero */
+#container {
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  border-radius: 10px;
+  padding-bottom: 60px;
+}
+
+/* posizione logo */
+#logo {
+  width: 200px;
+  padding-top: 80px;
+}
+
+/* titolo */
+header h1 {
+  color: #39ff14;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* disposizione e grandezza contenuto */
+#content {
+  margin: auto;
+  text-align: center;
+  width: 800px;
+  padding-top: 5px;
+}
+
+/* stile navigazione pagina */
+div #content nav {
+  background-color: #39ff14;
+  width: 800px;
+  height: 40px;
+  text-align: center;
+  margin: auto;
+}
+* form {
+  text-align: center;
+  padding-top: 10px;
+  margin: auto;
+}
+
+/* stile sezioni corpo della pagina */
+* section {
+  text-align: left;
+  width: 800px;
+  padding-top: 20px;
+}
+section > span {
+  font-family: 'Secular One', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+.arrow:before {
+  content: "\2192";  /*inserimento freccia*/
+}
+div.indications div{
+  font-family: 'Prata', serif;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/* stile barre di stato carica */
+#charge1 {
+  background-color: orange;
+  width: 250px;
+  height: 20px;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+#charge2 {
+  background-color: green;
+  width: 400px;
+  height: 20px;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+#charge3 {
+  background-color: red;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  padding-top: 20px;
+}
